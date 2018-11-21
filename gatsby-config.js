@@ -4,6 +4,7 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-sass',
+    'gatsby-plugin-glamor',
     {
       resolve: `gatsby-plugin-typography`,
       options: {
