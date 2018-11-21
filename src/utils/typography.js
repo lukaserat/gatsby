@@ -1,5 +1,6 @@
 import Typography from "typography"
-import bootstrapTheme from "typography-theme-bootstrap"
-const typography = new Typography(bootstrapTheme)
+// import theme from "typography-theme-bootstrap"
+import theme from "typography-theme-wordpress-kubrick"
+const typography = new Typography(theme)
 
 export default typography

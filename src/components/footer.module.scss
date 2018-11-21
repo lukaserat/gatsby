@@ -1,0 +1,17 @@
+@import "../sass/mixins/shadow";
+@import "../sass/variables";
+
+.wrapper {
+  border: 1px solid #ddd;
+  @include card(1);
+  padding: 4px 8px;
+}
+
+.title {
+  margin-top: 12px;
+  color: $fifth;
+}
+
+.description {
+  color: $first;
+}
