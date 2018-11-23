@@ -8,6 +8,9 @@ export default () => (
       <li>
         <Link to="/typography">Typhography</Link>
       </li>
+      <li>
+        <Link to="/confetti">Confetti</Link>
+      </li>
     </ul>
   </div>
 )

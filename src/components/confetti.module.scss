@@ -1,0 +1,12 @@
+@import "../sass/mixins/shadow";
+@import "../sass/variables";
+
+.wrapper {
+  background: lighten($sixth, $amount: 30);
+  position: relative;
+}
+
+.svg {
+  position: relative;
+  background-color: green;
+}
